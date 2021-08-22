@@ -7,7 +7,7 @@
 
 /*
 Reads lines from file and allocates new memory for them, so it must be freed later.
-If max_line_length is 0 then it will be set to 1024 bytes.
+If max_line_length is 0 then it will be set to 4096 bytes.
 lines_read will be set to the number of lines read.
 */
 char **getlines(FILE *file, uint max_line_length, uint *lines_read)
